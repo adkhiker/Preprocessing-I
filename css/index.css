@@ -177,14 +177,32 @@ nav a {
   color: #100b00;
   text-decoration: none;
   padding: 40px 40px 40px 40px;
+  font-size: 2rem;
   border-top: dotted 1px black;
   border-bottom: solid 2px black;
   padding-bottom: 4px;
   padding-top: 4px;
+}
+.image {
+  padding: 40px;
+  border-bottom: 5px black solild;
 }
 h2 {
   font-size: 3rem;
 }
 .intro {
   font-size: 2rem;
+  border-top: dotted 1px black;
+  border-bottom: solid 2px black;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }

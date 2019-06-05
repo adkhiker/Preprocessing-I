@@ -192,9 +192,16 @@ nav {
   a {
     color: @a-tags;
     text-decoration: none;
-    padding: 40px 40px 40px 40px;
+	padding: 40px 40px 40px 40px;
+	font-size: 2rem;
     .bordered();
   }
+}
+
+.image {
+	// .bordered();
+	padding: 40px;
+	border-bottom: 5px black solild;
 }
 
 h2 {
@@ -203,4 +210,15 @@ h2 {
 
 .intro {
   font-size: 2rem;
+  .bordered();
+}
+
+ul { 
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1 em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
