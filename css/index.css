@@ -184,6 +184,8 @@ nav a {
   padding-top: 4px;
 }
 .image {
+  display: flex;
+  margin: auto;
   padding: 40px;
   border-bottom: 5px black solild;
 }
